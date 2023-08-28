@@ -99,11 +99,13 @@ body{
    padding: 100px;
    gap: 250px;
 }
+/* watch section */
 .watch{
     position: relative;
 }
 .watch img{
-    margin-left: 180px;
+    margin-left: 250px;
+    margin-bottom:180px;
     align-items: center;
     justify-content: center;
     max-width: 100%;
@@ -119,4 +121,37 @@ body{
     left: 15%;
     color: #FFF;
     padding: 50px;
+}
+/* footer section */
+ footer{
+         color:#F8F8F8;
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        background: #151414;
+        margin:0%;
+        padding:130px 200px;
+}
+.section-description-2{
+    text-align:left;
+    padding-left: 10px;
+}
+.btn-ordinary{
+    border-radius: 5px;
+    background: #005FAC;
+    border:0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+.contact input[type="email"]{
+    display: block;
+     margin-bottom: 25px;
+     padding: 18px 35px;
+     color: #F3F3F3;
+     background: #151414;
+     border-radius: 8px;
+     border: 1px solid #FFF;
+     width: 100%;
 }
