@@ -48,3 +48,42 @@ body{
     font-weight: 400;
     line-height: 26px;
 }
+/* failures of previous years section styles */
+.failure{
+    margin-top: 100px;
+}
+.failure-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 30px 150px;
+    gap: 250px;
+}
+.failure-content{
+    align-items: center;
+    justify-content: center;
+}
+.failure-image{
+    width: 451px;
+    height: 898px;
+    flex-shrink: 0px;
+}
+.failure-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.failure-text{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.disp{
+    padding-left: 30px;
+    list-style: none;
+    text-align: justify;
+    margin-right: 140px;
+
+}
+/* my plan section styles */
